@@ -1,0 +1,3 @@
+Put your photos together in this folder.
+Default names: together-1.jpg ... together-5.jpg  (see src/content.js to change names or add more).
+Names are case-sensitive on GitHub Pages.
