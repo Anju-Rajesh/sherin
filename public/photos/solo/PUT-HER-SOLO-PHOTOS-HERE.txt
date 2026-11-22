@@ -1,0 +1,3 @@
+Put her individual photos in this folder.
+Default names: solo-1.jpg ... solo-6.jpg  (see src/content.js to change names or add more).
+Names are case-sensitive on GitHub Pages: solo-1.jpg is not Solo-1.JPG.
