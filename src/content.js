@@ -100,7 +100,7 @@ export const content = {
   },
 
   music: {
-    src: 'music/music.mpeg',
+    src: 'music/song.mp3',
     play: 'Play music',
     pause: 'Pause music',
     missing: 'Music file not added yet',
