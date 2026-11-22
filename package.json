@@ -4,10 +4,10 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "start": "vite",
-    "build": "vite build",
-    "deploy": "vite build && node -e \"import('fs').then(f=>f.writeFileSync('docs/.nojekyll',''))\"",
+    "dev": "node -e \"import('node:fs').then(f=>f.copyFileSync('index.source.html','index.html'))\" && vite",
+    "start": "node scripts/build.js && vite preview",
+    "build": "node scripts/build.js",
+    "deploy": "node scripts/build.js",
     "preview": "vite preview"
   },
   "dependencies": {
